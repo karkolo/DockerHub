@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 MAINTAINER Moniuszko karkolo@gmail.com
 RUN apt-get update
-CMD ["apache2clt", "-D", "FOREGROUND"]
+CMD ["apache2ctl", "-D", "FOREGROUND"]
 EXPOSE 80
